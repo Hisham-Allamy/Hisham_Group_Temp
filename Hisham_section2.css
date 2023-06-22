@@ -6,9 +6,10 @@
     height: 600px;
     position: relative;
     overflow: hidden;
+    display: block;
 }
 
-.partition {
+.section2 .partition {
     background-color: #115971;
     width: 50%;
     height: 50%;
@@ -23,22 +24,22 @@
     justify-content: center;
 }
 
-.partition * {
+.section2 .partition * {
     position: relative;
     width: 80%;
     left: 5%;
     text-align: left;
 }
 
-i {
+.section2 .partition i {
     width: 10% !important;
 }
 
-p {
+.section2 p {
     width: 90%;
 }
 
-.row {
+.section2 .partition .row {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -46,7 +47,7 @@ p {
     align-items: center;
 }
 
-.image {
+.section2 .image {
     width: 30%;
     position: relative;
     top: 30%;
