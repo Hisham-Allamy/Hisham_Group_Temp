@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --theme_color: #00c7fc;
+}
+
+.section4 {
+    width: 100%;
+    height: 100px;
+    background-image: url("Template Two (Team)/images/subscribe.jpg");
+    position: relative;
+    display: block;
+    background-size: cover;
+}
+
+.section4 .mail {
+    width: 35%;
+    height: 25%;
+    position: absolute;
+    left: 10%;
+    right: 50%;
+    top: 30%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    background: none;
+    border: white;
+    border-width: 1px;
+    border-style: solid;
+}
+.section4 i{
+    height: 100%;
+    width: 10%;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+}
+.section4 .mail input {
+    background: none;
+    border: none;
+    height: 100%;
+    width: 55%;
+    left: 10%;
+    position: absolute;
+    color: white;
+}
+
+.section4 .mail .button {
+    background-color: var(--theme_color);
+    width: 35%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    text-justify: auto;
+    right: 0;
+    font-size: 15px;
+    justify-items: center;
+    text-decoration: none;
+}
+
+.section4 .text {
+    width: 34%;
+    height: 50%;
+    position: absolute;
+    left: 60%;
+    right: 10%;
+    top: 25%;
+    color: white;
+    font-size: 12px;
+}
