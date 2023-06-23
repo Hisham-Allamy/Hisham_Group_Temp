@@ -59,7 +59,19 @@
     text-align: center;
 }
 
-.button1::before {
+#search::before {
+    content: "";
+    width: 1px;
+    height: 25px;
+    border: white;
+    border-style: solid;
+    border-width: 0px;
+    border-left-width: 1px;
+    position: absolute;
+    right: 7.5%;
+}
+
+.section1 .button1::before {
     content: "";
     width: 10%;
     height: 3px;
@@ -73,12 +85,11 @@
     visibility: hidden;
 }
 
-.button1:hover:before {
+.section1 .button1:hover:before {
     visibility: visible;
 }
 
-
-.button2::before {
+.section1 .button2::before {
     content: "";
     width: 14%;
     height: 3px;
@@ -92,11 +103,11 @@
     visibility: hidden;
 }
 
-.button2:hover:before {
+.section1 .button2:hover:before {
     visibility: visible;
 }
 
-.button3::before {
+.section1 .button3::before {
     content: "";
     width: 18%;
     height: 3px;
@@ -110,11 +121,11 @@
     visibility: hidden;
 }
 
-.button3:hover:before {
+.section1 .button3:hover:before {
     visibility: visible;
 }
 
-.button4::before {
+.section1 .button4::before {
     content: "";
     width: 11%;
     height: 3px;
@@ -128,11 +139,11 @@
     visibility: hidden;
 }
 
-.button4:hover:before {
+.section1 .button4:hover:before {
     visibility: visible;
 }
 
-.button5::before {
+.section1 .button5::before {
     content: "";
     width: 13%;
     height: 3px;
@@ -146,11 +157,11 @@
     visibility: hidden;
 }
 
-.button5:hover:before {
+.section1 .button5:hover:before {
     visibility: visible;
 }
 
-.button6::before {
+.section1 .section1 .button6::before {
     content: "";
     width: 14%;
     height: 3px;
@@ -164,12 +175,12 @@
     visibility: hidden;
 }
 
-.button6:hover:before {
+.section1 .section1 .button6:hover:before {
     visibility: visible;
 }
 
 
-.partition2.Hisham {
+.section1 .partition2.Hisham {
     width: 55%;
     height: 250px;
     color: white;
@@ -180,7 +191,7 @@
     padding-top: 1%;
 }
 
-.partition2.Hisham * {
+.section1 .partition2.Hisham * {
     display: block;
     width: 60%;
     position: relative;
@@ -192,11 +203,11 @@ h1 {
     font-weight: lighter;
 }
 
-a {
+.section1 a {
     text-decoration: none;
     color: white;
 }
 
-a:hover {
+.section1 a:hover {
     color: var(--theme_color);
 }
